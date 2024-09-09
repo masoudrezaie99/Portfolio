@@ -7,7 +7,7 @@ const AboutMe = () => {
         <Row>
             <Col></Col>
             <Col sm={12} md={6} lg={6}>
-            <div className="aboutme">
+            <div className="aboutme slide-in-bottom">
                 <h1>
                 Experienced front-end developer with a passion for crafting intuitive and visually appealing web applications.
                 </h1>
