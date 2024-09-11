@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import Container from 'react-bootstrap/Container';
 import './App.css';
 import NotFound from './NotFound';
 import Home from './Home';
@@ -13,6 +13,7 @@ function App() {
   return (
     <Router>
     <div className="App">
+      <Container>
       <Navbar/>
 
       <Routes>
@@ -27,6 +28,8 @@ function App() {
 
       </Routes>
       
+      
+      </Container>
       <Footer/>
     </div>
     </Router>

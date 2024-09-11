@@ -31,8 +31,9 @@ nav a {
   text-align: center;
   margin: 90px 0px;
 
-  h1 {
+  p {
     font-size: 3rem;
+    font-weight: 700;
   }
 }
 
@@ -69,13 +70,20 @@ nav a {
 .techbox:hover {
   img {
     filter: blur(10px);
+    /* rotate: 5deg; */
+    transform: scale(1.2);
+    filter: brightness(0.2);
   }
   div {
     opacity: 1;
   }
 }
 
-
+footer{
+  max-width: 1320px;
+  margin: auto;
+  
+}
 footer a{
 
   transition:0.3s;
@@ -83,6 +91,29 @@ footer a{
 
 
 footer a:hover{
+  color:#000 !important;
+}
+
+
+.contact{
+  height: 50vh;
+  p{
+    font-size: 3rem;
+    font-weight: 700;
+    transition:0.3s;
+    text-align: center;
+  }
+  a{
+    font-size: 3rem;
+    font-weight: 700;
+    transition:0.3s;
+    text-align: center;
+  }
+
+} 
+
+
+.contact a:hover{
   color:#000 !important;
 }
 
@@ -132,5 +163,6 @@ footer a:hover{
     opacity: 1;
   }
 }
+
 
 
