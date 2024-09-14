@@ -5,11 +5,12 @@ import Contact from './Contact';
 
 
 function Home() {
+  const aboutMe = 'Experienced front-end developer with a passion for crafting intuitive and visually appealing web applications.'
 
   return (
     <Container>
 
-      <AboutMe/>
+      <AboutMe aboutme={aboutMe} xbold={true}/>
 
       <Blogs/>
 

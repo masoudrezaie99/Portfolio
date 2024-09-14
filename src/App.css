@@ -31,10 +31,7 @@ nav a {
   text-align: center;
   margin: 90px 0px;
 
-  p {
-    font-size: 3rem;
-    font-weight: 700;
-  }
+
 }
 
 .techbox {
@@ -117,6 +114,14 @@ footer a:hover{
   color:#000 !important;
 }
 
+
+.divider{
+  border-radius: 999em;
+  background-color: #e8e5e4bd;
+  width: fit-content;
+  padding: 5px 10px;
+  font-weight: 600;
+}
 
 
 .slide-in-bottom {
